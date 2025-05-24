@@ -2172,9 +2172,17 @@ PrefabInstance:
       value: Insurgent
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f35cad625ec86654083e813d4c2df71f, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: f35cad625ec86654083e813d4c2df71f, type: 3}
+    - target: {fileID: 5866666021909216657, guid: f35cad625ec86654083e813d4c2df71f, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c39646f05eca5bd4ca7c32ccfafe1e71, type: 2}
+    - target: {fileID: 5866666021909216657, guid: f35cad625ec86654083e813d4c2df71f, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
