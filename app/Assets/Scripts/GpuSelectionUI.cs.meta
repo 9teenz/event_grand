@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: 3c023c46630ac7347adbed2d0e3d1c55
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - panel: {instanceID: 0}
+  - installGpuButton: {instanceID: 0}
+  - gpuPrefab: {fileID: 78948574340239709, guid: bfc416fd4d671764d826645ca6e155a1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

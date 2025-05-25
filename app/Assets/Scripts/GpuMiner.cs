@@ -2,21 +2,20 @@ using UnityEngine;
 
 public class GpuMiner : MonoBehaviour
 {
-    public float miningRate = 3f; 
-    private float timer = 0f;
+    [Header("ћонет в секунду")]
+    public float miningRate = 3f;
+
+    private float accumulator = 0f;
 
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >= 1f)
+        accumulator += miningRate * Time.deltaTime;
+        if (accumulator >= 1f)
         {
-            Mine();
-            timer = 0f;
+            int toAdd = Mathf.FloorToInt(accumulator);
+            accumulator -= toAdd;
+            CurrencyManager.Instance.AddCoins(toAdd);
+            Debug.Log($"{name} добыл {toAdd} монет");
         }
-    }
-
-    void Mine()
-    {
-        Debug.Log($"{name} добыл {miningRate} монет");
     }
 }
