@@ -11,3 +11,6 @@
 ---
 
 <p>Купленные игроками монеты можно обменивать на что-нибудь в пропуске, как вариант</p>
+<p align="center">
+    <img src="https://grnd.gg/favicon.ico" alt="Grand Mobile">
+</p>
